@@ -19,13 +19,22 @@ const tiles = [
 
 class Game extends React.Component {
   state = {
-    score: 0
+    score: 0,
+    clicked: []
   }
 
   handleClick = (id) => {
-    this.setState({
-      score: this.state.score + 1
-    });
+    if (this.state.clicked.includes(id)) {
+      this.setState({
+        score: 0,
+        clicked: []
+      });
+    } else {
+      this.setState({
+        score: this.state.score + 1,
+        clicked: this.state.clicked.concat(id)
+      });
+    }
   }
 
   render() {
@@ -37,7 +46,7 @@ class Game extends React.Component {
         </div>
         <div id='tiles'>
           {tiles.map(tile => (
-            <Tile id={tile.id} img={tile.img} handleClick={this.handleClick} />
+            <Tile id={tile.id} img={tile.img} onClick={() => this.handleClick(tile.id)} />
           ))}
         </div>
       </div>
