@@ -20,7 +20,8 @@ const tiles = [
 class Game extends React.Component {
   state = {
     score: 0,
-    clicked: []
+    clicked: [],
+    tiles: tiles
   }
 
   handleClick = (id) => {
@@ -35,6 +36,17 @@ class Game extends React.Component {
         clicked: this.state.clicked.concat(id)
       });
     }
+    this.shuffle();
+  }
+
+  shuffle = () => {
+    this.setState({
+      tiles: tiles.sort(_ => Math.random()-0.5)
+    })
+  }
+
+  componentDidMount() {
+    this.shuffle();
   }
 
   render() {
@@ -45,7 +57,7 @@ class Game extends React.Component {
           <p style={{ fontSize: '1.5em' }}>Score: {this.state.score}</p>
         </div>
         <div id='tiles'>
-          {tiles.map(tile => (
+          {this.state.tiles.map(tile => (
             <Tile id={tile.id} img={tile.img} onClick={() => this.handleClick(tile.id)} />
           ))}
         </div>
