@@ -1,0 +1,18 @@
+#game {
+  max-width: 77rem; /* 4 tiles wide */
+  width: 90%;
+  margin: 2rem auto;
+}
+
+#status {
+  margin: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.tile {
+  margin: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.75rem;
+  width: 16rem;
+  height: 9rem;
+}
+
+.tile img {
+  width: 16rem;
+  height: 9rem;
+  border-radius: 0.25rem;
+}
