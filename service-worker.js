@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/bootcamp-memorygame/precache-manifest.64f415acf92f565ad64ac7722c8c825d.js"
+  "/bootcamp-memorygame/precache-manifest.e989c1539d5682ea983c3c2068db3d9f.js"
 );
 
 self.addEventListener('message', (event) => {

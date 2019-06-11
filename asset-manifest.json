@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bootcamp-memorygame/static/css/main.1ceb3a03.chunk.css",
-    "main.js": "/bootcamp-memorygame/static/js/main.a884c5be.chunk.js",
-    "main.js.map": "/bootcamp-memorygame/static/js/main.a884c5be.chunk.js.map",
+    "main.js": "/bootcamp-memorygame/static/js/main.0e01589f.chunk.js",
+    "main.js.map": "/bootcamp-memorygame/static/js/main.0e01589f.chunk.js.map",
     "runtime~main.js": "/bootcamp-memorygame/static/js/runtime~main.b91e479b.js",
     "runtime~main.js.map": "/bootcamp-memorygame/static/js/runtime~main.b91e479b.js.map",
     "static/js/2.65aa1cca.chunk.js": "/bootcamp-memorygame/static/js/2.65aa1cca.chunk.js",
     "static/js/2.65aa1cca.chunk.js.map": "/bootcamp-memorygame/static/js/2.65aa1cca.chunk.js.map",
     "index.html": "/bootcamp-memorygame/index.html",
-    "precache-manifest.64f415acf92f565ad64ac7722c8c825d.js": "/bootcamp-memorygame/precache-manifest.64f415acf92f565ad64ac7722c8c825d.js",
+    "precache-manifest.e989c1539d5682ea983c3c2068db3d9f.js": "/bootcamp-memorygame/precache-manifest.e989c1539d5682ea983c3c2068db3d9f.js",
     "service-worker.js": "/bootcamp-memorygame/service-worker.js",
     "static/css/main.1ceb3a03.chunk.css.map": "/bootcamp-memorygame/static/css/main.1ceb3a03.chunk.css.map"
   }
